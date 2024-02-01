@@ -1,0 +1,55 @@
+// Number 1
+
+let number=9;
+let number2="";
+
+for (let i = 1; i <= 10 ; i++) {
+    number2=i;
+    console.log(`${number} X ${number2} = ${number * i}`);
+    
+}
+
+// Number 2
+
+let word="ini";
+let letters=word.split("");
+let reversedLetters= letters.reverse();
+let reveredWord=reversedLetters.join("");
+
+if (word.toLowerCase()== reveredWord.toLowerCase()) {
+    console.log("this is a polindrome");
+    
+}else{
+    console.log("this not a polindrome");
+}
+
+// Number 3
+
+let numCm=1000; //
+let numKm=1;
+let num=100000;
+let satuan="cm";
+
+if (satuan == "cm") {
+    num = num / numKm;
+    
+}
+if (satuan == "km") {
+    num = num * numcm;
+    
+}
+
+console.log(num,"km");
+
+
+let str="QUiCk bRown fOx"
+let result2="";
+
+for (let i = 0; i < str.length; i++) {
+   if (str[i] == str[i].toLowerCase()) {
+    result2 +=str[i].toUpperCase();
+   }else if(str[i]== str[i].toUpperCase()){
+
+   }
+    
+}
